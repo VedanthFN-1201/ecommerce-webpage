@@ -1,0 +1,132 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Online Store</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            background-color: navy;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .products {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .product {
+            background-color: white;
+            padding: 20px;
+            width: 180px;
+            text-align: center;
+            border-radius: 8px;
+        }
+
+        .product img {
+            width: 150px;
+            height: 120px;
+            object-fit: contain;
+        }
+
+        button {
+            background-color: navy;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: navy;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>My Online Store</h1>
+        <p>Shop your favourite products</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <h2>Our Products</h2>
+
+    <div class="products" id="products">
+
+        <div class="product">
+            <img src="https://placehold.co/150x120?text=Shoes"
+                 alt="Shoes">
+            <h3>Shoes</h3>
+            <p>Price: ₹999</p>
+            <button onclick="alert('Shoes selected!')">
+                Buy Now
+            </button>
+        </div>
+
+        <div class="product">
+            <img src="https://placehold.co/150x120?text=Watch"
+                 alt="Watch">
+            <h3>Watch</h3>
+            <p>Price: ₹799</p>
+            <button onclick="alert('Watch selected!')">
+                Buy Now
+            </button>
+        </div>
+
+        <div class="product">
+            <img src="https://placehold.co/150x120?text=Headphones"
+                 alt="Headphones">
+            <h3>Headphones</h3>
+            <p>Price: ₹599</p>
+            <button onclick="alert('Headphones selected!')">
+                Buy Now
+            </button>
+        </div>
+
+    </div>
+
+    <footer id="contact">
+        <p>Contact: shop@example.com</p>
+        <p>© 2026 My Online Store</p>
+    </footer>
+
+</body>
+</html>
+```
